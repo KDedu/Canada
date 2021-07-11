@@ -1,0 +1,67 @@
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#heading {
+    font-family: 'Lobster', cursive;
+}
+
+.links:hover {
+    background-color: lightcoral;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links {
+    float: left;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+#img1 {
+    width: 400px;
+    height: 200px;
+}
+
+body {
+    text-align: center;
+}
+
+h2 {
+    text-shadow: 2px 2px #F8BBDO;
+}
+
+#geography{
+    background-color: lightgreen;
+}
+#general{
+    background-color: lightsalmon;
+}
+#country{
+    background-color: lightgray;
+}
+#history{
+    background-color: lightsteelblue;
+}
+#facts{
+    background-color: lightseagreen;
+}
